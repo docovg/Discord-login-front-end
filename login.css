@@ -1,0 +1,65 @@
+body {
+    background-image: url("img/b9995525a52dc58aecf5.svg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols';
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.login {
+    background-color: #3e4047;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    
+    width: 50%; 
+    max-width: 600px; 
+}
+
+.login h1, .login h2 {
+    text-align: center; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #313338;
+    box-sizing: border-box;
+    background-color: #313338;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7289da; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b6eae; 
+}
+
+p {
+    margin: 10px 0;
+}
+a{
+    color: #099AC0;
+    text-decoration: none;
+}
